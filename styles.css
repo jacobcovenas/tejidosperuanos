@@ -1,14 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f4f4f4;
 }
 
 header {
-    background-color: #005A9C;
+    background-color: #3a7ca5;
     color: white;
-    padding: 20px;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -19,20 +20,34 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
     padding: 20px;
+    text-align: center;
+}
+
+.imagen-producto {
+    max-width: 60%;
+    margin: 20px auto;
+    border: 5px solid #ddd;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.imagen-producto img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
-    background-color: #005A9C;
+    background-color: #3a7ca5;
     color: white;
     text-align: center;
     padding: 10px;
