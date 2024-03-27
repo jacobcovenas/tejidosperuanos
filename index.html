@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejidos Peruanos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tejidos Peruanos S.A.C.</h1>
+        <nav>
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la producción y comercialización de tejidos peruanos de alta calidad, preservando técnicas tradicionales y promoviendo la sostenibilidad.</p>
+        </section>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <h3>Chalina de Alpaca</h3>
+                <p>Chalina tejida a mano con lana de alpaca, suave y cálida, disponible en varios colores.</p>
+            </div>
+            <!-- Repite la estructura de .producto para más productos -->
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="button" onclick="enviarContacto()">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Tejidos Peruanos S.A.C.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
